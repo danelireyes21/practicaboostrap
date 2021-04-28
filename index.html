@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Bootstrap Pagina Web</title>
+
+    <style>
+        .col-1 {
+            border: 2px solid;
+            border-color: darkgrey;
+        }
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="56">
+
+    <!-- Encabezado -->
+    <header id="header">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Boutique</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#main">Inicio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#novedad">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nosotros">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- /Encabezado -->
+
+    <!-- Carrusel -->
+    <main id="main">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/6.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/9.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/12.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 offset-md-6 text-md-right text-center">
+                                <h1>Boutique</h1>
+                                <p class="d-none d-md-block">Llego la temporada donde podras sentirte frsca y libre.
+                                </p>
+                                <button type="button" class="btn btn-outline-light">Quiero ser cliente</button>
+                                <button class="btn btn-boutique">Mas informacion</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--/Carrusel -->
+
+    <!-- Cards -->
+    <section id="novedad" class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-uppercase">
+                    <small>Conoce las tendencias para este</small>
+                    <h2>Verano</h2>
+                </div>
+                <div class="row">
+                    <div class="col-4 mb-4 col-md-6 col-lg-4 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imagenes/pexels-photo-5890184.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blusas</h5>
+                                <p class="card-text">Existen blusas de todas las tallas y colores para sentirte fresca en etas vacaciones.</p>
+                                <a href="#" class="btn btn-boutique" data-toggle="modal" data-target="#htmlModal">Ver tendencia</a>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 mb-4 col-md-6 col-lg-4 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imagenes/falda.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Faldas</h5>
+                                <p class="card-text">Para este verano contar con faldas es muy eficiente, sientiendote mas libre.</p>
+                                <a href="#" class="btn btn-boutique">Ver tendencia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 mb-4 col-md-6 col-lg-4 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imagenes/traje.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Trajes de Baño</h5>
+                                <p class="card-text">Disfruta de la variedad de estilos en trajes de baño, para asi disfrutar mas.</p>
+                                <a href="#" class="btn btn-boutique">Ver tendencia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 mb-4 col-md-6 col-lg-4 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imagenes/vestido.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vestidos</h5>
+                                <p class="card-text">Vestidos nuevos en tu closet para sentirte mas libre y comoda en verano.</p>
+                                <a href="#" class="btn btn-boutique">Ver tendencia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 mb-4 col-md-6 col-lg-4 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imagenes/top.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Tops sin mangas</h5>
+                                <p class="card-text">Ejercitate comodamente con los nuevos top sin manga para esta temporada.</p>
+                                <a href="#" class="btn btn-boutique">Ver tendencia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 mb-4 col-md-6 col-lg-4 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imagenes/short.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Shorts</h5>
+                                <p class="card-text">Sientete libre y comoda usando los short vernao para estas vacaciones.</p>
+                                <a href="#" class="btn btn-boutique">Ver tendencia</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Cards -->
+
+    <!-- Clase OnLine -->
+    <section id="nosotros">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-12 pl-0 pr-0">
+                    <img src="imagenes/nosotros.jpeg" alt="">
+                </div>
+                <div class="col-lg-6 col-12 pt-4 pb-4">
+                    <h2>Boutique</h2>
+                    <p>Nuestra tienda en una de las mas recomendadas de todo el lugra, por sus excelentes telas y precios en cada prenda
+                        para asi darle mejor comodidad y libertad a nustros clientes. Contamos con una administracion muy amigable,
+                        para hacer que tu compra sea eficiente y comoda.
+                    </p>
+                        
+                    <a href="#" class="btn btn-outline-light">Leer mas</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Clase OnLine -->
+
+    <!-- Ser maestro -->
+    <section id="semaestro" class="pt-4 pb-4 mt-2 mb-2" style="background: url(imagenes/contacto.jpeg);">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="text-uppercase">Contactanos</small>
+                    <h2>Cliente</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    Dino que te parece nuestra tien y que podemos mejorar en ella. <abbr data-toggle="tooltip" title="El nombre de tu nueva familia">Boutique</abbr>.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+                    <form>
+                        <div class="row">
+                          <div class="col-12 col-md-6 form-group">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                          </div>
+                          <div class="col-12 col-md-6 form-group">
+                            <input type="text" class="form-control" placeholder="Apellidos">
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col form-group">
+                                <textarea name="descripcion" class="form-control"></textarea>
+                                <small>Incluye un titulo en tu descripcion.</small>
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col form-group">
+                                <button type="button" class="btn btn-boutique btn-block">Enviar</button>
+                                
+                            </div>
+                        </div>
+                      </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- /Ser maestro -->
+
+    <!-- Pie de pagina -->
+    <footer id="contacto" class="pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg">
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-md-12">
+                            <h5>Nos encontramos</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-md-12">
+                            <p>Angeles #23</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-md-12">
+                            <p>Encarnacion de Diaz</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg pt-4">
+                    <a href="#">Preguntas Frecuentes</a>
+                </div>
+
+                <div class="col-12 col-lg pt-4">
+                    <a href="#">Terminos y condiciones</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <div id="footerDivider" class="pt-2 pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <p>Copyrigt 2021 Boutique</p>
+                </div>
+                <div class="col-lg-6 col-12 text-lg-right text-left">
+                    <a href="">Noticias de privacidad</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Pie de pagina -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="htmlModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Temario</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Primavera
+                  <span class="badge badge-primary badge-pill">Hasta 23-04-2021</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Verano
+                  <span class="badge badge-primary badge-pill">Del 24-04-2021</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Otoño
+                  <span class="badge badge-primary badge-pill">A partir del 15-09-2021</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Invierno
+                    <span class="badge badge-primary badge-pill">20-11-2020</span>
+                  </li>
+                  
+              </ul>
+
+              <div class="alert alert-success" role="alert">
+                No te lo pierdas!
+              </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--/Modal -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+#contacto{
+    background-color: #42071e;
+}
+
+#contacto a, #footerDivider a{
+    color:white;
+    text-decoration: none;
+}
+
+#contacto{
+ color: white;
+}
+#footerDivider{
+    background-color: rgb(231, 178, 187);
+}
+
+#main img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+.btn-boutique{
+    background-color: #42071e;
+    color: white;
+}
+
+.btn-boutique:hover{
+    background-color: #d4a0b4;
+    color: white;
+}
+
+#nosotros img{
+    max-width: 100%;
+}
+
+#nosotros{
+    background-color: #42071e;
+    color: white;
+}
+
+.tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(231, 178, 187);
+    border-radius: .25rem;
+   }
+    
+   .tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+    margin-left: -3px;
+    content: "";
+    border-width: 5px 5px 0;
+    border-top-color: rgb(231, 178, 187);
+   }
